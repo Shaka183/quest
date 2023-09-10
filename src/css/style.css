@@ -1,0 +1,64 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: var(--Violet);
+    color: #fff;
+    
+}
+
+.container .cabecalho .logo {
+    width: 206px;
+    height: 42px;
+    margin: 78px 0 100px 78px;
+}
+
+.container .conteudo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.container .conteudo .image {
+    margin: 0 0 0 78px;
+}
+.container .conteudo .info {
+    padding-right: 35px;
+}
+
+
+.container .conteudo .info h1 {
+   font-size: 40px;
+   margin-bottom: 42px;
+   font-weight: 600;
+}
+
+.container .conteudo .info p {
+    font-size: 16.5px;
+    margin-bottom:30px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.container .conteudo .botao {
+    padding: 20px 70px;
+    border-radius: 36px;
+    font-size: 18px;
+}
+
+.container .foot a {
+    
+}
+
+
+
+
+
+
+
+ 
