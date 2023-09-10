@@ -49,10 +49,13 @@ body {
     padding: 20px 70px;
     border-radius: 36px;
     font-size: 18px;
+    border: none;
+    cursor: pointer;
 }
 
 .container .foot a {
     
+
 }
 
 
