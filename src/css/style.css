@@ -6,17 +6,13 @@ html {
 }
 
 body {
+    background: url(../images/bg-desktop.svg) no-repeat ;
+    background-position: -110px;
     background-color: var(--Violet);
     color: #fff;
     height: 94vh;
-}
 
-/* .container{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
+}
 
 .container .cabecalho .logo {
     width: 206px;
@@ -91,6 +87,12 @@ body {
     width: 45px;
     height: 45px;
     text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.container footer a i:hover {
+    color: violet;
+
 }
 
 
