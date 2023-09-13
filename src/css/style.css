@@ -2,7 +2,6 @@
 font-family: 'Poppins', sans-serif; */
 
 html {
-    font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,7 +30,6 @@ body {
     padding-right: 35px;
     
 }
-
 
 .container .conteudo .info h1 {
    font-size: 40px;
@@ -79,6 +77,9 @@ body {
     border-radius: 50%;
     padding: 10px;
     font-size: 18px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
 }
 
 
