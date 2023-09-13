@@ -8,13 +8,22 @@ html {
 body {
     background-color: var(--Violet);
     color: #fff;
+    height: 94vh;
 }
+
+/* .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 
 .container .cabecalho .logo {
     width: 206px;
     height: 45px;
-    margin: 50px 0 70px 78px;
-
+    margin-left: 65px;
+    margin-top: 22px;
+    margin-bottom: 40px;
 }
 
 .container .conteudo {
@@ -23,9 +32,11 @@ body {
     gap: 50px;
 }
 
-.container .conteudo .image {
+.container .conteudo .image img {
     margin: 0 0 0 78px;
+    width: 580px;
 }
+
 .container .conteudo .info {
     padding-right: 35px;
     
@@ -63,19 +74,19 @@ body {
 .container footer {
     display: flex;
     justify-content: end;
-    margin: 0 42px 20px 0;
+    margin: 0 20px 5px 0;
 
 }
 
 .container footer a {
-    padding: 0 15px 0 0;
+    padding: 0 15px 40px 0;
     opacity: 0.8;
 }
 
 .container footer a i {
     border: solid 2px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 10px ;
     font-size: 18px;
     width: 45px;
     height: 45px;
